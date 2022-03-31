@@ -19,6 +19,7 @@ public class BankAccountTest {
 
         double actual = bankAccount.getBalance();
         assertEquals(100,actual,0.00000001);
+        fail();
     }
 
     @Test
