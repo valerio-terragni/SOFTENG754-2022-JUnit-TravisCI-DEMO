@@ -1,1 +1,4 @@
-# SOFTENG754-2022-JUnit-TravisCI-DEMO
+# SE754 2022
+# Demo JUnit + TravisCI
+
+
