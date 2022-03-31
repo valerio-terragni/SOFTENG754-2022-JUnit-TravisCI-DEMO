@@ -22,6 +22,13 @@ public class BankAccountTest {
     }
 
     @Test
+    public void test_deposit2(){
+        bankAccount.deposit(10);
+        double actual = bankAccount.getBalance();
+        assertEquals(110,actual,0.00000001);
+    }
+
+    @Test
     public void test_withdraw(){
         bankAccount.withdraw(10);
         double actual = bankAccount.getBalance();
